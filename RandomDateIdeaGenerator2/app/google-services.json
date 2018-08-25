@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "664924230590",
+    "firebase_url": "https://random-date-idea-generator.firebaseio.com",
+    "project_id": "random-date-idea-generator",
+    "storage_bucket": "random-date-idea-generator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664924230590:android:c78fc565c21dd4b3",
+        "android_client_info": {
+          "package_name": "com.sandy_rock_studios.macbookair.randomdateideagenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664924230590-6rrvrrk1roa2ugode0vdbmav8fu2vpg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandy_rock_studios.macbookair.randomdateideagenerator",
+            "certificate_hash": "85f8dade23f00675c6a315e4ed0d3ad0bdbd8bac"
+          }
+        },
+        {
+          "client_id": "664924230590-glb324k2h3fa9fcci1ujmstuu5bqihoh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "664924230590-glb324k2h3fa9fcci1ujmstuu5bqihoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWwBX6YBzfftQMVtjUc8q6AfAt9UQa8W4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664924230590-glb324k2h3fa9fcci1ujmstuu5bqihoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

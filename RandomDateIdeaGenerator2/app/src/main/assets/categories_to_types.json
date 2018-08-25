@@ -1,0 +1,85 @@
+{
+  "standard": {
+    "title": "Standard",
+    "types": [
+      "movie_rental",
+      "movie_theater",
+      "night_club",
+      "park",
+      "art_gallery",
+      "shopping_mall",
+      "bar",
+      "restaurant"
+    ]
+  },
+  "entertainment": {
+    "title": "Entertainment",
+    "types": [
+      "campground",
+      "amusement_park",
+      "bowling_alley",
+      "stadium",
+      "casino",
+      "movie_rental",
+      "movie_theater",
+      "night_club",
+      "park"
+    ]
+  },
+  "sights": {
+    "title": "Sights",
+    "types": [
+      "campground",
+      "aquarium",
+      "art_gallery",
+      "stadium",
+      "museum",
+      "zoo",
+      "park"
+    ]
+  },
+  "food_and_drink": {
+    "title": "Food and Drink",
+    "types": [
+      "bakery",
+      "bar",
+      "cafe",
+      "meal_delivery",
+      "meal_takeaway",
+      "restaurant"
+    ]
+  },
+  "shopping": {
+    "title": "Shopping",
+    "types": [
+      "book_store",
+      "florist",
+      "store",
+      "shopping_mall",
+      "shoe_store",
+      "department_store"
+    ]
+  },
+  "health": {
+    "key": "Health",
+    "types": [
+      "beauty_salon",
+      "gym",
+      "spa",
+      "hair_care"
+    ]
+  },
+  "out_there": {
+    "key": "Out there",
+    "types": [
+      "florist",
+      "car_dealer",
+      "furniture_store",
+      "library",
+      "pet_store",
+      "painter",
+      "rv_park",
+      "liquor_store"
+    ]
+  }
+}

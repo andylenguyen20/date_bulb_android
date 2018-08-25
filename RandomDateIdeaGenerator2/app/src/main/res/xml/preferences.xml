@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Location Settings"
+        android:key="pref_key_storage_settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="current_location_on"
+            android:summary="Set the location to be your current location"
+            android:title="Current location" />
+        <Preference
+            android:key="location_select"
+            android:dependency="current_location_on"
+            android:summary="Pick your location"
+            android:title="Select location">
+            <intent
+                android:action="com.sandy_rock_studios.macbookair.randomdateideagenerator.SETTING_START_ACTIVITY"
+                android:targetPackage="com.sandy_rock_studios.macbookair.randomdateideagenerator"
+                android:targetClass="com.sandy_rock_studios.macbookair.randomdateideagenerator.activity.user.PlacePickerActivity"
+            />
+        </Preference>
+        <ListPreference
+            android:defaultValue="5"
+            android:key="location_radius"
+            android:entries="@array/search_radius_array_keys"
+            android:entryValues="@array/search_radius_array_values"
+            android:summary="Select a radius that we can search around your chosen location"
+            android:title="Search radius" />
+        <ListPreference
+            android:defaultValue="standard"
+            android:key="date_category"
+            android:entries="@array/date_category_array_keys"
+            android:entryValues="@array/date_category_array_values"
+            android:summary="Select a date category you are interested in"
+            android:title="Date category" />
+    </PreferenceCategory>
+</PreferenceScreen>

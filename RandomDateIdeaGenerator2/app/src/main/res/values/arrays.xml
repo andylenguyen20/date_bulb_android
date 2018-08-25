@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_radius_array_keys">
+        <item>1 mile</item>
+        <item>2 miles</item>
+        <item>3 miles</item>
+        <item>4 miles</item>
+        <item>5 miles</item>
+        <item>6 miles</item>
+        <item>7 miles</item>
+        <item>8 miles</item>
+        <item>9 miles</item>
+        <item>10 miles</item>
+        <item>11 miles</item>
+        <item>12 miles</item>
+        <item>13 miles</item>
+        <item>14 miles</item>
+        <item>15 miles</item>
+        <item>16 miles</item>
+        <item>17 miles</item>
+        <item>18 miles</item>
+        <item>19 miles</item>
+        <item>20 miles</item>
+    </string-array>
+    <string-array name="search_radius_array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="date_category_array_values">
+        <item>standard</item>
+        <item>entertainment</item>
+        <item>sights</item>
+        <item>food_and_drink</item>
+        <item>shopping</item>
+        <item>health</item>
+        <item>out_there</item>
+    </string-array>
+    <string-array name="date_category_array_keys">
+        <item>Standard</item>
+        <item>Entertainment</item>
+        <item>Sights</item>
+        <item>Food and Drink</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Out there</item>
+    </string-array>
+</resources>
